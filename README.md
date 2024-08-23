@@ -4,7 +4,6 @@
 This is a classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game is fully responsive, allowing users to enjoy it on devices of all sizes, from desktop to mobile. The intuitive design makes it easy to play, and the logic ensures that each move is tracked and checked for a winner or tie.
 
 ## Features
-- **Responsive Design:** The game adapts to different screen sizes for optimal user experience.
 - **Player Turn Indicator:** Displays which player's turn it is with a clear and simple UI.
 - **Winner Detection:** Implements a winning logic to determine when a player has won or if the game ends in a tie.
 - **Interactive UI:** Buttons respond visually when clicked, providing a smooth and engaging user interaction.
