@@ -1,67 +1,103 @@
-*{
+
+* {
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #385170;
 }
-#start{
 
+#start {
     margin-top: 2px;
     font-size: 10vh;
 }
-h1{
+
+h1 {
     text-align: center;
     color: #ececec;
 }
-#hed{
+
+#hed {
     margin-top: 30px;
 }
-.container{
+
+.container {
     justify-content: center;
     align-items: center;
-    height:70vh;
+    height: 70vh;
     display: flex;
     margin-top: 10px;
 }
-.game{
-    height: 70vh;
-    width: 80vh;
+
+.game {
+    height: 70vmin; 
+    width: 70vmin;  
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 }
-.box{
-    width: 20vmin;
-    height: 20vmin;
-    margin:5px;
+
+.box {
+    width: 30%;
+    height: 30%; 
+    margin: 1%;  
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0, 0,0,0.9);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
     background-color: #9fd3c7;
-    font-size: 10vmin;
+    font-size: 5vw;  
     color: #ececec;
 }
-.reset-con{
+
+.reset-con {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
 }
-.reset{
+
+.reset {
     background-color: #9fd3c7;
     border: 1px solid #ececec;
     border-radius: 10px;
-    color:#385170;
+    color: #385170;
     height: 23px;
-    box-shadow: 0 0 1rem rgba(0, 0,0,0.9);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
 }
+
 .box:active {
-    transform: translateY(2px); /* Optional: a slight effect when the button is pressed */
+    transform: translateY(2px);
 }
+
 .reset:active {
-    transform: translateY(2px); /* Optional: a slight effect when the button is pressed */
+    transform: translateY(2px); 
+}
+
+@media (max-width: 768px) {
+    .game {
+        height: 80vmin; 
+        width: 80vmin;  
+    }
+
+    .box {
+        width: 32%; 
+        height: 32%; 
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .game {
+        height: 90vmin; 
+        width: 90vmin;  
+    }
+
+    .box {
+        width: 30%; 
+        height: 30%;
+        font-size: 10vw;
+    }
 }
